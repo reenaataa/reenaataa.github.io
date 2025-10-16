@@ -91,3 +91,10 @@ audio {
     z-index: 2;
     position: relative;
 }
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+        font-size: 13px;
+        gap: 10px;
+    }
+}
